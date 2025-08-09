@@ -1,0 +1,16 @@
+2025/07/31 22:46:59 [error] 3232#17472: *1 CreateFile() "D:\Nginx\nginx-1.26.3/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2025/07/31 22:51:58 [notice] 2068#18400: signal process started
+2025/07/31 22:59:20 [emerg] 4612#19084: host not found in resolver "proxy_pass" in D:\Nginx\nginx-1.26.3/conf/nginx.conf:47
+2025/07/31 23:01:30 [emerg] 7920#12236: host not found in resolver "proxy_pass" in D:\Nginx\nginx-1.26.3/conf/nginx.conf:48
+2025/07/31 23:04:31 [notice] 13276#4876: signal process started
+2025/07/31 23:04:31 [error] 13276#4876: CreateFile() "D:\Nginx\nginx-1.26.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/07/31 23:04:45 [notice] 16768#16704: signal process started
+2025/07/31 23:04:45 [error] 16768#16704: CreateFile() "D:\Nginx\nginx-1.26.3/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/07/31 23:05:39 [error] 11576#6228: *1 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET http://example.com/ HTTP/1.1", upstream: "http://96.7.128.175:80//", host: "example.com"
+2025/08/01 00:33:40 [notice] 9172#12380: signal process started
+2025/08/01 09:11:09 [error] 10916#17756: *1 localhost could not be resolved (3: Host not found), client: 127.0.0.1, server: localhost, request: "GET http://localhost/ HTTP/1.1", host: "localhost"
+2025/08/01 10:07:47 [notice] 13360#16720: signal process started
+2025/08/02 17:39:26 [error] 18016#19020: *2 localhost could not be resolved (3: Host not found), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8888"
+2025/08/02 17:39:26 [error] 18016#19020: *2 localhost could not be resolved (3: Host not found), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2025/08/02 17:41:17 [error] 18016#19020: *5 connect() failed (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET http://example.com/ HTTP/1.1", upstream: "http://96.7.128.198:80//", host: "example.com"
+2025/08/02 17:42:17 [notice] 2572#3556: signal process started
