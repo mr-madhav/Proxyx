@@ -105,7 +105,6 @@ class Credentials:
         except Exception as e:
             logger.error(f"Error [mapdata]: {e}")
 
-
 addons =[
     Credentials()
 ]
